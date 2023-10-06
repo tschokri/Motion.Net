@@ -13,10 +13,10 @@ public static class NotionClientManager
         {
             lock (Lock)
             {
-                return _client ?? (_client = NotionClientFactory.Create(new ClientOptions
+                return _client ??= NotionClientFactory.Create(new ClientOptions
                 {
-                    AuthToken = "secret_MSjmUD3l7Q6f7THPi8Yujp8bI3UZj20urImCv72zcpA"
-                }));
+                    AuthToken = Config.GetVariable("MotionDotNetSecret")
+                });
             }
         }
     }

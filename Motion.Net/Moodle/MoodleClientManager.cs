@@ -2,7 +2,7 @@
 
 namespace Motion.Net.Moodle;
 
-public class MoodleClientManager
+public abstract class MoodleClientManager
 {
     private static MoodleClient? _client;
     private static readonly object Lock = new object();
