@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Motion.Net", "Motion.Net\Motion.Net.csproj", "{EC12E45F-E58F-47AD-B193-10107FB91C16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moodle.Net", "..\Moodle.Net\Moodle.Net\Moodle.Net.csproj", "{EAC9211A-ED08-4028-A76C-1BA28A826536}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC12E45F-E58F-47AD-B193-10107FB91C16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC12E45F-E58F-47AD-B193-10107FB91C16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC12E45F-E58F-47AD-B193-10107FB91C16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC12E45F-E58F-47AD-B193-10107FB91C16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAC9211A-ED08-4028-A76C-1BA28A826536}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAC9211A-ED08-4028-A76C-1BA28A826536}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAC9211A-ED08-4028-A76C-1BA28A826536}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAC9211A-ED08-4028-A76C-1BA28A826536}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
