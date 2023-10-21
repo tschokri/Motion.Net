@@ -1,6 +1,4 @@
-﻿using Moodle.Net;
-
-namespace Motion.Net.Moodle;
+﻿namespace Motion.Net.Moodle;
 
 public abstract class MoodleClientManager
 {

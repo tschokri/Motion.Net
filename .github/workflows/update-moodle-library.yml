@@ -1,0 +1,20 @@
+name: Update Moodle.Net
+
+on:
+    workflow_run:
+        workflows: ['publish']
+
+jobs:
+    update-dependency:
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: Checkout code
+              uses: actions/checkout@v2
+
+            - name: Update Moodle.Net dependency
+              run: |
+                  dotnet add package Moodle.Net --version Latest
+                  git add .
+                  git commit -m "Update Moodle.Net to the latest version"
+                  git push
